@@ -33,7 +33,7 @@ import (
 	"gopkg.in/yaml.v2"
 )
 
-func main() {
+func Sign() {
 	var image, json_key_path, pri_key_path, passphrase, pub_key_path, policy_path string
 
 	flag.StringVar(&image, "image", "", "image url, e.g., gcr.io/foo/bar@sha256:abcd")
